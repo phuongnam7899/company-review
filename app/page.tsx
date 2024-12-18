@@ -4,6 +4,8 @@ import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import Link from "next/link";
 import { StarInput } from "@/components/common";
+import { Provider } from "react-redux";
+import store from "@/store";
 
 const companies = [
   {
